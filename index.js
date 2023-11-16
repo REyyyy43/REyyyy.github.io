@@ -59,7 +59,7 @@ searchInput.addEventListener('input', async e => {
     const message = document.createElement('div')
     message.classList.add ('menssage')
     message.innerHTML = `
-    <p>Demasiados paises, especifica mejor tu respuesta</p>
+    <p>Demasiados paises, especifica mejor tu busqueda</p>
     `
     container.append(message)
   } 
